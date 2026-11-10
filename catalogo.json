@@ -1,0 +1,502 @@
+[
+  {
+    "nombre": "inventario-archivos",
+    "categoria": "Archivos",
+    "descripcion": "Inventario recursivo CSV con tamaños y fechas UTC."
+  },
+  {
+    "nombre": "hash-archivo",
+    "categoria": "Archivos",
+    "descripcion": "Huella SHA-256 de un archivo."
+  },
+  {
+    "nombre": "comparar-carpetas",
+    "categoria": "Archivos",
+    "descripcion": "Comparación recursiva por ruta relativa y contenido SHA-256."
+  },
+  {
+    "nombre": "buscar-duplicados",
+    "categoria": "Archivos",
+    "descripcion": "Duplicados SHA-256; nunca elimina datos."
+  },
+  {
+    "nombre": "copia-zip",
+    "categoria": "Archivos",
+    "descripcion": "ZIP nuevo fuera del origen; omite enlaces."
+  },
+  {
+    "nombre": "listar-zip",
+    "categoria": "Archivos",
+    "descripcion": "Lista contenido de un ZIP sin extraerlo."
+  },
+  {
+    "nombre": "comprobar-zip",
+    "categoria": "Archivos",
+    "descripcion": "Comprueba CRC de un ZIP sin extraer archivos."
+  },
+  {
+    "nombre": "dividir-archivo",
+    "categoria": "Archivos",
+    "descripcion": "Divide en partes y genera manifiesto SHA-256 en carpeta nueva."
+  },
+  {
+    "nombre": "unir-archivo",
+    "categoria": "Archivos",
+    "descripcion": "Une partes verificadas; elimina salida parcial si falla."
+  },
+  {
+    "nombre": "buscar-extension",
+    "categoria": "Archivos",
+    "descripcion": "Busca archivos recursivamente por extensión."
+  },
+  {
+    "nombre": "archivos-grandes",
+    "categoria": "Archivos",
+    "descripcion": "Los archivos de mayor tamaño, sin borrar."
+  },
+  {
+    "nombre": "carpetas-vacias",
+    "categoria": "Archivos",
+    "descripcion": "Informa carpetas vacías, sin eliminarlas."
+  },
+  {
+    "nombre": "arbol-archivos",
+    "categoria": "Archivos",
+    "descripcion": "Árbol de rutas relativas; omite enlaces y limita la salida."
+  },
+  {
+    "nombre": "firma-archivo",
+    "categoria": "Archivos",
+    "descripcion": "Identifica firmas comunes sin confiar en la extensión."
+  },
+  {
+    "nombre": "contar-lineas",
+    "categoria": "Texto",
+    "descripcion": "Cuenta líneas, líneas vacías y caracteres."
+  },
+  {
+    "nombre": "frecuencia-palabras",
+    "categoria": "Texto",
+    "descripcion": "Frecuencias de palabras Unicode."
+  },
+  {
+    "nombre": "quitar-lineas-repetidas",
+    "categoria": "Texto",
+    "descripcion": "Elimina líneas repetidas conservando su primer orden."
+  },
+  {
+    "nombre": "ordenar-lineas",
+    "categoria": "Texto",
+    "descripcion": "Ordena líneas alfabéticamente sin distinguir mayúsculas."
+  },
+  {
+    "nombre": "buscar-regex",
+    "categoria": "Texto",
+    "descripcion": "Busca un patrón en un archivo local con números de línea."
+  },
+  {
+    "nombre": "reemplazar-texto",
+    "categoria": "Texto",
+    "descripcion": "Reemplaza texto literal y guarda una copia nueva."
+  },
+  {
+    "nombre": "normalizar-espacios",
+    "categoria": "Texto",
+    "descripcion": "Quita espacios finales y compacta espacios horizontales."
+  },
+  {
+    "nombre": "numerar-lineas",
+    "categoria": "Texto",
+    "descripcion": "Crea una copia de texto con números de línea."
+  },
+  {
+    "nombre": "unir-textos",
+    "categoria": "Texto",
+    "descripcion": "Une archivos UTF-8 en el orden indicado."
+  },
+  {
+    "nombre": "diferencias-texto",
+    "categoria": "Texto",
+    "descripcion": "Diferencias unificadas entre dos archivos UTF-8."
+  },
+  {
+    "nombre": "extraer-emails",
+    "categoria": "Texto",
+    "descripcion": "Extrae candidatos de correo de texto local; no valida buzones."
+  },
+  {
+    "nombre": "extraer-enlaces",
+    "categoria": "Texto",
+    "descripcion": "Extrae candidatos HTTP/HTTPS sin abrirlos."
+  },
+  {
+    "nombre": "crear-slug",
+    "categoria": "Texto",
+    "descripcion": "Convierte un título en slug ASCII para nombres o URLs."
+  },
+  {
+    "nombre": "ajustar-parrafos",
+    "categoria": "Texto",
+    "descripcion": "Reajusta el ancho de párrafos conservando separaciones vacías."
+  },
+  {
+    "nombre": "formatear-json",
+    "categoria": "Datos",
+    "descripcion": "Valida y formatea JSON en un archivo nuevo."
+  },
+  {
+    "nombre": "aplanar-json",
+    "categoria": "Datos",
+    "descripcion": "Lista hojas JSON con rutas JSON Pointer y valores."
+  },
+  {
+    "nombre": "json-a-csv",
+    "categoria": "Datos",
+    "descripcion": "Convierte una lista de objetos planos JSON en CSV."
+  },
+  {
+    "nombre": "csv-a-json",
+    "categoria": "Datos",
+    "descripcion": "Convierte CSV con cabecera a una lista JSON de cadenas."
+  },
+  {
+    "nombre": "seleccionar-csv",
+    "categoria": "Datos",
+    "descripcion": "Selecciona columnas de un CSV en el orden pedido."
+  },
+  {
+    "nombre": "filtrar-csv",
+    "categoria": "Datos",
+    "descripcion": "Filtra CSV por igualdad literal en una columna."
+  },
+  {
+    "nombre": "ordenar-csv",
+    "categoria": "Datos",
+    "descripcion": "Ordena CSV por columna, alfabéticamente o como decimal."
+  },
+  {
+    "nombre": "estadisticas-csv",
+    "categoria": "Datos",
+    "descripcion": "Estadísticas de una columna numérica; rechaza valores vacíos."
+  },
+  {
+    "nombre": "transponer-csv",
+    "categoria": "Datos",
+    "descripcion": "Transpone filas y columnas de una matriz CSV rectangular."
+  },
+  {
+    "nombre": "detectar-delimitador",
+    "categoria": "Datos",
+    "descripcion": "Estima el delimitador de un archivo tabular."
+  },
+  {
+    "nombre": "comparar-json",
+    "categoria": "Datos",
+    "descripcion": "Compara estructuras JSON ignorando el orden de claves."
+  },
+  {
+    "nombre": "fusionar-json",
+    "categoria": "Datos",
+    "descripcion": "Fusiona objetos JSON de primer nivel; rechaza claves repetidas."
+  },
+  {
+    "nombre": "ndjson-a-json",
+    "categoria": "Datos",
+    "descripcion": "Convierte JSON por línea a un array JSON; omite líneas vacías."
+  },
+  {
+    "nombre": "inventario-xml",
+    "categoria": "Datos",
+    "descripcion": "Lista frecuencias de etiquetas en XML local sin DTD."
+  },
+  {
+    "nombre": "generar-uuid",
+    "categoria": "Desarrollo",
+    "descripcion": "Genera identificadores UUID v4 aleatorios."
+  },
+  {
+    "nombre": "generar-contrasena",
+    "categoria": "Desarrollo",
+    "descripcion": "Genera contraseña con aleatoriedad criptográfica."
+  },
+  {
+    "nombre": "generar-token",
+    "categoria": "Desarrollo",
+    "descripcion": "Genera token URL-safe con secrets."
+  },
+  {
+    "nombre": "codificar-base64",
+    "categoria": "Desarrollo",
+    "descripcion": "Codifica un archivo como Base64 ASCII en una copia nueva."
+  },
+  {
+    "nombre": "decodificar-base64",
+    "categoria": "Desarrollo",
+    "descripcion": "Decodifica Base64 estricto a un archivo nuevo."
+  },
+  {
+    "nombre": "codificar-url",
+    "categoria": "Desarrollo",
+    "descripcion": "Escapa un componente de URL sin realizar peticiones."
+  },
+  {
+    "nombre": "decodificar-url",
+    "categoria": "Desarrollo",
+    "descripcion": "Decodifica escapes porcentuales UTF-8 sin navegar."
+  },
+  {
+    "nombre": "convertir-epoch",
+    "categoria": "Desarrollo",
+    "descripcion": "Convierte segundos Unix a fecha UTC ISO 8601."
+  },
+  {
+    "nombre": "probar-regex",
+    "categoria": "Desarrollo",
+    "descripcion": "Prueba una expresión regular sobre una cadena local."
+  },
+  {
+    "nombre": "crear-gitignore",
+    "categoria": "Desarrollo",
+    "descripcion": "Crea .gitignore para Python con cachés, entornos y secretos habituales."
+  },
+  {
+    "nombre": "revisar-requirements",
+    "categoria": "Desarrollo",
+    "descripcion": "Detecta nombres repetidos y referencias locales en requirements; no busca vulnerabilidades."
+  },
+  {
+    "nombre": "servidor-local",
+    "categoria": "Desarrollo",
+    "descripcion": "Sirve una carpeta por HTTP solo en 127.0.0.1; Ctrl+C detiene."
+  },
+  {
+    "nombre": "nota-diaria",
+    "categoria": "Productividad",
+    "descripcion": "Crea una nota Markdown del día sin sobrescribir notas previas."
+  },
+  {
+    "nombre": "crear-proyecto",
+    "categoria": "Productividad",
+    "descripcion": "Crea estructura nueva con documentación, recursos, código y exportaciones."
+  },
+  {
+    "nombre": "pomodoro",
+    "categoria": "Productividad",
+    "descripcion": "Temporizador de trabajo y descanso con reloj monotónico."
+  },
+  {
+    "nombre": "checklist-html",
+    "categoria": "Productividad",
+    "descripcion": "Convierte una línea por tarea en lista HTML imprimible."
+  },
+  {
+    "nombre": "indice-markdown",
+    "categoria": "Productividad",
+    "descripcion": "Lista encabezados Markdown fuera de bloques de código."
+  },
+  {
+    "nombre": "resumen-horas",
+    "categoria": "Productividad",
+    "descripcion": "Suma horas por proyecto desde CSV proyecto,horas."
+  },
+  {
+    "nombre": "calendario-html",
+    "categoria": "Productividad",
+    "descripcion": "Genera un calendario mensual HTML imprimible."
+  },
+  {
+    "nombre": "resumen-tareas",
+    "categoria": "Productividad",
+    "descripcion": "Resume tareas de CSV tarea,estado por estado."
+  },
+  {
+    "nombre": "convertir-unidades",
+    "categoria": "Productividad",
+    "descripcion": "Convierte longitud, masa, almacenamiento o temperatura."
+  },
+  {
+    "nombre": "resumen-gastos",
+    "categoria": "Productividad",
+    "descripcion": "Suma importes CSV categoria,importe con decimales exactos."
+  },
+  {
+    "nombre": "resolver-dns",
+    "categoria": "Red",
+    "descripcion": "Resuelve IPv4/IPv6 usando el DNS del sistema."
+  },
+  {
+    "nombre": "comprobar-tcp",
+    "categoria": "Red",
+    "descripcion": "Comprueba una conexión TCP con tiempo máximo."
+  },
+  {
+    "nombre": "cabeceras-http",
+    "categoria": "Red",
+    "descripcion": "Consulta cabeceras HTTP/HTTPS con HEAD y timeout."
+  },
+  {
+    "nombre": "certificado-tls",
+    "categoria": "Red",
+    "descripcion": "Consulta certificado TLS validando cadena y nombre de servidor."
+  },
+  {
+    "nombre": "analizar-url",
+    "categoria": "Red",
+    "descripcion": "Descompone una URL localmente sin abrirla; omite contraseña."
+  },
+  {
+    "nombre": "calcular-subred",
+    "categoria": "Red",
+    "descripcion": "Calcula red, máscara y rango sin enumerar todos los hosts."
+  },
+  {
+    "nombre": "informacion-sistema",
+    "categoria": "Sistema",
+    "descripcion": "Resumen del sistema y Python sin nombres de usuario."
+  },
+  {
+    "nombre": "espacio-disco",
+    "categoria": "Sistema",
+    "descripcion": "Consulta espacio total, usado y libre en una ruta."
+  },
+  {
+    "nombre": "revisar-path",
+    "categoria": "Sistema",
+    "descripcion": "Detecta entradas inexistentes y repetidas del PATH."
+  },
+  {
+    "nombre": "nombres-entorno",
+    "categoria": "Sistema",
+    "descripcion": "Lista nombres de variables de entorno, sin mostrar valores."
+  },
+  {
+    "nombre": "listar-procesos",
+    "categoria": "Sistema",
+    "descripcion": "Consulta procesos mediante tasklist en Windows o ps en Unix."
+  },
+  {
+    "nombre": "localizar-programa",
+    "categoria": "Sistema",
+    "descripcion": "Localiza un ejecutable en PATH sin ejecutarlo."
+  },
+  {
+    "nombre": "markdown-a-html",
+    "categoria": "Documentos",
+    "descripcion": "Convierte un subconjunto de Markdown a HTML estático escapado."
+  },
+  {
+    "nombre": "escapar-html",
+    "categoria": "Documentos",
+    "descripcion": "Escapa texto para mostrarlo como HTML sin interpretarlo."
+  },
+  {
+    "nombre": "html-a-texto",
+    "categoria": "Documentos",
+    "descripcion": "Extrae texto de HTML local omitiendo scripts y estilos."
+  },
+  {
+    "nombre": "convertir-codificacion",
+    "categoria": "Documentos",
+    "descripcion": "Convierte texto desde una codificación explícita a UTF-8 estricto."
+  },
+  {
+    "nombre": "manifiesto-sha256",
+    "categoria": "Documentos",
+    "descripcion": "Crea manifiesto JSON de rutas relativas, tamaños y SHA-256."
+  },
+  {
+    "nombre": "verificar-manifiesto",
+    "categoria": "Documentos",
+    "descripcion": "Verifica un manifiesto SHA-256 y rechaza rutas fuera del origen."
+  },
+  {
+    "nombre": "alineacion-barra-w11",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Alinear la barra de tareas de Windows 11"
+  },
+  {
+    "nombre": "animaciones-interfaz",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Consultar o ajustar animaciones del área cliente"
+  },
+  {
+    "nombre": "aplicar-fondo-windows",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Aplicar y restaurar un fondo de escritorio"
+  },
+  {
+    "nombre": "avatar-cuadrado",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Preparar un avatar cuadrado"
+  },
+  {
+    "nombre": "contraste-colores",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Comprobar contraste de texto"
+  },
+  {
+    "nombre": "fondo-degradado-png",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Crear fondo PNG para Windows"
+  },
+  {
+    "nombre": "fondo-degradado-svg",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Fondo con degradado vectorial"
+  },
+  {
+    "nombre": "fondo-desenfocado",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Crear un fondo desenfocado desde una foto"
+  },
+  {
+    "nombre": "fondo-mosaico-svg",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Fondo geométrico con semilla"
+  },
+  {
+    "nombre": "fondo-ondas-svg",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Fondo de ondas vectoriales"
+  },
+  {
+    "nombre": "fondo-orbitas-svg",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Fondo de órbitas minimalistas"
+  },
+  {
+    "nombre": "hoja-contacto",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Crear una hoja de contacto de imágenes"
+  },
+  {
+    "nombre": "icono-monograma-svg",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Icono vectorial con iniciales"
+  },
+  {
+    "nombre": "imagen-a-ico",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Crear iconos ICO multirresolución"
+  },
+  {
+    "nombre": "paleta-desde-imagen",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Extraer colores de una imagen"
+  },
+  {
+    "nombre": "panel-inspiracion-svg",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Panel visual con tipografía y colores"
+  },
+  {
+    "nombre": "rejilla-puntos-svg",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Rejilla de puntos para diseño"
+  },
+  {
+    "nombre": "zonas-escritorio-svg",
+    "categoria": "Diseño y Windows",
+    "descripcion": "Fondo con zonas para organizar iconos"
+  }
+]

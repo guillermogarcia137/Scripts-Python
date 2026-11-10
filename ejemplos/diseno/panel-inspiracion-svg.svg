@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#0B1026"/>
+<text x="89.60000000000001" y="201.60000000000002" font-family="Segoe UI,sans-serif" font-size="86.39999999999999" fill="#56DCC6">NOVA</text>
+<rect x="89.60000000000001" y="331.2" width="243.2" height="259.2" rx="18.0" fill="#56DCC6" opacity="1"/>
+<rect x="371.20000000000005" y="331.2" width="243.2" height="259.2" rx="18.0" fill="#56DCC6" opacity="0.75"/>
+<rect x="652.8" y="331.2" width="243.2" height="259.2" rx="18.0" fill="#56DCC6" opacity="0.5"/>
+<rect x="934.4" y="331.2" width="243.2" height="259.2" rx="18.0" fill="#56DCC6" opacity="0.25"/>
+<text x="89.60000000000001" y="655.2" font-family="monospace" font-size="18.0" fill="#56DCC6">#0B1026 / #56DCC6 / 100% · 75% · 50% · 25%</text>
+</svg>

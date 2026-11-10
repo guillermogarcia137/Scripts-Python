@@ -1,0 +1,16 @@
+# Convierte una lista de objetos planos JSON en CSV.
+
+Categoría: Datos. Python 3.9+; solo biblioteca estándar.
+
+Desde la raíz del repositorio:
+
+```powershell
+py cli.py json-a-csv ejemplos/datos/personas.json personas.csv
+py json-a-csv/script.py --help
+```
+
+También puedes entrar en esta carpeta y usar `py script.py` o `ejecutar.cmd`.
+Conserva la carpeta `nucleo` junto a las herramientas: no copies un lanzador solo.
+Las rutas relativas se resuelven desde tu carpeta de trabajo.
+Los ejemplos que generan archivos requieren destinos nuevos y carpetas padre existentes.
+ Los CSV se procesan en memoria. Usa punto decimal. Los valores exportados se conservan literalmente: al abrirlos en Excel, importa las celdas como texto si los datos no son confiables.

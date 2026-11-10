@@ -1,0 +1,2 @@
+# Solo para las seis herramientas de imágenes; el resto usa la biblioteca estándar.
+Pillow>=11.3.0,<14

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#0B1026"/>
+<rect x="44.800000000000004" y="86.39999999999999" width="371.2" height="547.2" rx="18.0" fill="#56DCC6" fill-opacity=".05" stroke="#56DCC6" stroke-opacity=".35"/>
+<text x="67.84" y="64.8" font-family="Segoe UI,sans-serif" font-size="15.120000000000001" letter-spacing="3" fill="#56DCC6">TRABAJO</text>
+<rect x="460.79999999999995" y="86.39999999999999" width="371.2" height="547.2" rx="18.0" fill="#56DCC6" fill-opacity=".05" stroke="#56DCC6" stroke-opacity=".35"/>
+<text x="483.84" y="64.8" font-family="Segoe UI,sans-serif" font-size="15.120000000000001" letter-spacing="3" fill="#56DCC6">PERSONAL</text>
+<rect x="876.8000000000001" y="86.39999999999999" width="371.2" height="547.2" rx="18.0" fill="#56DCC6" fill-opacity=".05" stroke="#56DCC6" stroke-opacity=".35"/>
+<text x="899.84" y="64.8" font-family="Segoe UI,sans-serif" font-size="15.120000000000001" letter-spacing="3" fill="#56DCC6">TEMPORAL</text>
+</svg>
