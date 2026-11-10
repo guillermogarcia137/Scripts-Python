@@ -5,7 +5,7 @@ Categoría: Sistema. Python 3.9+; solo biblioteca estándar.
 Desde la raíz del repositorio:
 
 ```powershell
-py cli.py listar-procesos 
+py cli.py listar-procesos
 py listar-procesos/script.py --help
 ```
 

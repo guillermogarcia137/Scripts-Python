@@ -5,7 +5,7 @@ Categoría: Sistema. Python 3.9+; solo biblioteca estándar.
 Desde la raíz del repositorio:
 
 ```powershell
-py cli.py nombres-entorno 
+py cli.py nombres-entorno
 py nombres-entorno/script.py --help
 ```
 
